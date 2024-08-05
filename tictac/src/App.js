@@ -1,10 +1,12 @@
-import logo from "./logo.svg";
 import "./App.css";
+import Board from "./Button";
 
 function App() {
-	return <>
-  <button></button>
-  </>;
+	return (
+		<>
+			<Board />
+		</>
+	);
 }
 
 export default App;
